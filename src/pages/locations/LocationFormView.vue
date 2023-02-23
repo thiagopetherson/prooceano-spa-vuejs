@@ -19,7 +19,7 @@
 <script>
 import { defineComponent, ref, computed, onMounted } from 'vue'
 import { useQuasar } from 'quasar'
-import useLocationApi from 'src/composables/requests/UseLocationApi' // Importando o composable da requisição para as localizações
+import useLocationApi from 'src/composables/requests/UseLocationApi'
 import { useRouter, useRoute } from 'vue-router'
 
 export default defineComponent({
@@ -65,7 +65,6 @@ setup () {
     }
   })
 
-  // Retornando para o componente
   return {
     quasar,
     form,

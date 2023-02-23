@@ -7,8 +7,8 @@
 <script>
 import { defineComponent, ref, onMounted } from 'vue'
 import MapComponent from 'src/components/maps/MapComponent.vue'
-import useDeviceLocationApi from 'src/composables/requests/UseDeviceLocationApi' // Importando o composable da requisição para as localizações de dispositivos
-import { echo } from 'boot/laravel-echo'
+import useDeviceLocationApi from 'src/composables/requests/UseDeviceLocationApi'
+// import { echo } from 'boot/laravel-echo'
 import { LocalStorage } from 'quasar'
 
 export default defineComponent({

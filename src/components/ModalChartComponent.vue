@@ -1,10 +1,7 @@
 <template>
   <div class="q-pa-md q-gutter-sm">   
-    <!--<q-btn label="Medium" color="primary" @click="showModal = true" />-->
 
-    <q-dialog
-      v-model="showModal"
-    >
+    <q-dialog v-model="showModal">
       <q-card style="width: 700px; max-width: 80vw;">
         <q-card-section>
           <div class="text-h6">Informações</div>
@@ -39,7 +36,7 @@ export default defineComponent({
     markers: { // Marcadores
       type: Array,
       required: true,
-      default: () => [] // Por default é array vazio
+      default: () => []
     }
   },
   props: ['markers'],

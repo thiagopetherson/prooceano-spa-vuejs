@@ -13,8 +13,8 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
-import useAuthUser from 'src/composables/requests/UseAuthUser' // Importando o composable da autenticação
-import useNotify from 'src/composables/notifications/UseNotify' // Importando o composable da notificação
+import useAuthUser from 'src/composables/requests/UseAuthUser'
+import useNotify from 'src/composables/notifications/UseNotify'
 
 export default defineComponent({
   name: 'PasswordRecoveryView',

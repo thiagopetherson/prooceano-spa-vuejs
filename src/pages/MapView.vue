@@ -7,7 +7,7 @@
 <script>
 import { defineComponent, ref, onMounted } from 'vue'
 import MapComponent from 'src/components/maps/MapComponent.vue'
-import useLocationApi from 'src/composables/requests/UseLocationApi' // Importando o composable da requisição para as localizações
+import useLocationApi from 'src/composables/requests/UseLocationApi'
 const { index } = useLocationApi()
 
 export default defineComponent({

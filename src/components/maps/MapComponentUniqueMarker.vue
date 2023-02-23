@@ -15,13 +15,13 @@ export default defineComponent({
     markers: { // Marcadores
       type: Array,
       required: false,
-      default: () => [] // Por default é array vazio
+      default: () => []
     },
     latitude: {
-      default: 0, //-26.8560346
+      default: 0,
     },
     longitude: {
-      default: 0, //-49.239189
+      default: 0,
     }
   },
   setup(props) {
@@ -30,17 +30,18 @@ export default defineComponent({
     // Métodos
     const createMapLayer  = () => {
            
-      // Criando o mapa na div que criamos
-      map = L.map('map-container-item').setView([props.latitude, props.longitude], 5) // 1º parâmetro é a latitude e longitude. 2º param é o zoom do mapa
+      // Criando o mapa na div que criamos (2° param, do setView, é o zoom)
+      map = L.map('map-container-item').setView([props.latitude, props.longitude], 5)
                  
-      // Essa parte abaixo já é padronizado da doc
+      // Essa parte abaixo já é padronizado da doc (o add(map) está adicionando o mapa que criamos)
       L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {       
         attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map)// nessa parte aqui está adicionando no map que criamos
+      }).addTo(map)
            
       // Verificando se a props dos marcadores é maior que zero
       if (props.markers.length > 0)
-        setMarkers() // Faz o tratamento e chama a função que adiciona os marcadores no mapa
+        // Chama a função que adiciona os marcadores no mapa
+        setMarkers() 
     }
 
     const setMarkers = () => { 

@@ -77,8 +77,7 @@ export default defineComponent({
     onMounted(() => {
       handleList() 
     })
-
-    // Retornando para o componente
+   
     return {
       columnsLocation,
       locations,

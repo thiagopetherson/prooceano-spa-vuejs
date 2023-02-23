@@ -1,5 +1,5 @@
 import { api } from 'boot/axios'
-import useNotify from 'src/composables/notifications/UseNotify' // Importando o composable da notificação
+import useNotify from 'src/composables/notifications/UseNotify'
 import { LocalStorage } from 'quasar'
 
 export default function useDeviceLocationApi () {

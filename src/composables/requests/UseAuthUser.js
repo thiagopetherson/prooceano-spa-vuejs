@@ -1,7 +1,7 @@
 import { api } from 'boot/axios'
 import { useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
-import useNotify from 'src/composables/notifications/UseNotify' // Importando o composable da notificação
+import useNotify from 'src/composables/notifications/UseNotify'
 import { useAuthStore } from 'stores/auth'
 import { LocalStorage } from 'quasar'
 

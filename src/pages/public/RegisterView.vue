@@ -17,7 +17,7 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
-import useAuthUser from 'src/composables/requests/UseAuthUser' // Importando o composable da autenticação
+import useAuthUser from 'src/composables/requests/UseAuthUser'
 
 export default defineComponent({
   name: 'RegisterView',
@@ -36,7 +36,6 @@ export default defineComponent({
       await register(form.value)     
     }
 
-    // Retornando para o componente
     return {
       form,
       handleRegister

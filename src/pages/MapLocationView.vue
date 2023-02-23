@@ -38,10 +38,7 @@ export default defineComponent({
       loading.value = false
     }
 
-    onMounted(() => {     
-      console.log(latitude)
-      console.log(longitude)
-      console.log(name)
+    onMounted(() => {
       handleList() 
     })
 
