@@ -50,3 +50,5 @@ Rode o comando abaixo (No terminal, na pasta raiz do projeto), para criar a buil
  
 `quasar build`
 <br/><br/>
+
+![Screenshot from 2023-02-23 17-58-24](https://user-images.githubusercontent.com/44420212/221029150-3402b89f-ea2a-4ac4-99d9-4d934ad4b0e9.png)
