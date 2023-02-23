@@ -1,33 +1,52 @@
-# Prooceano App (frontend-prooceano)
+# SPA do Sistema Proposto Pela da Prooceano
 
-A Prooceano Project
-
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+Projeto de um sistema de armazenamento de geolocalizações e informações.<br/>
 
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+## 🚀 Detalhes
+
+
+Desenvolvimento de uma SPA em VueJS 3 e Quasar Framework. Foram utilizados clean code e padrões de desenvolvimento de uma SPA desenvolvida com Vue.
 
 
 
-### Build the app for production
-```bash
-quasar build
-```
+## 🛠️ Pré-requisitos
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+Você precisa ter instalado em sua máquina:
+
+- Node<br/>
+- Vue<br/>
+- Quasar Framework<br/>
+
+
+## 📦 Desenvolvimento Backend (Ferramentas utilizadas na API Laravel)
+
+- VueJS 3
+- Quasar Framework v2<br/>
+- Pinia<br/>
+- Leaflet<br/>
+- Axios<br/>
+- ApexCharts<br/>
+- Laravel Echo<br/>
+- Vue Router<br/>
+
+<br/>
+
+## 🔧 Instalação e Inicialização do Projeto (Laravel 9)
+
+
+Na pasta raiz da aplicação rode no terminal:
+
+`yarn ou npm install`
+ <br/>
+
+Rode o comando abaixo (No terminal, na pasta raiz do projeto), para iniciar o modo de desenvolvimento:
+ 
+`quasar dev`
+<br/>
+
+Rode o comando abaixo (No terminal, na pasta raiz do projeto), para criar a build para produção:
+ 
+`quasar build`
+<br/><br/>
