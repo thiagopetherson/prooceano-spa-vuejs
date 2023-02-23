@@ -18,7 +18,7 @@
         <!--<DarkModeToggleComponent />-->
         <div v-if="quasar.platform.is.desktop">
           <q-btn flat icon="person" disable>
-            {{ storeAuth.getUser.name.slice(0, string.indexOf(' ') }}
+            {{ storeAuth.getUser.name.slice(0, string.indexOf(' ')) }}
           </q-btn>
         </div>
 
