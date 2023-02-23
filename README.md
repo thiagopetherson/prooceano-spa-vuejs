@@ -1,12 +1,12 @@
 # SPA do Sistema Proposto Pela da Prooceano
 
-Projeto de um sistema de armazenamento de geolocalizações e informações.<br/>
+Projeto de um sistema de armazenamento de geolocalizações e informações.<br/><br/>
 
 
-## 🚀 Detalhes
+## 📋 Detalhes
 
 
-Desenvolvimento de uma SPA em VueJS 3 e Quasar Framework. Foram utilizados clean code e padrões de desenvolvimento de uma SPA desenvolvida com Vue.
+Desenvolvimento de uma SPA em VueJS 3 e Quasar Framework. Foram utilizados clean code e padrões de desenvolvimento de uma SPA desenvolvida com Vue.<br/><br/>
 
 
 
@@ -17,7 +17,7 @@ Você precisa ter instalado em sua máquina:
 
 - Node<br/>
 - Vue<br/>
-- Quasar Framework<br/>
+- Quasar Framework<br/><br/>
 
 
 ## 📦 Desenvolvimento Backend (Ferramentas utilizadas na API Laravel)
@@ -29,9 +29,15 @@ Você precisa ter instalado em sua máquina:
 - Axios<br/>
 - ApexCharts<br/>
 - Laravel Echo<br/>
-- Vue Router<br/>
+- Vue Router<br/><br/>
 
-<br/>
+
+## 🚀 Link da Aplicação
+
+Aplicação hospedada:<br/>
+Link: https://prooceano.netlify.app/<br/><br/>
+
+
 
 ## 🔧 Instalação e Inicialização do Projeto (Laravel 9)
 
