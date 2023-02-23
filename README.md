@@ -9,6 +9,12 @@ Projeto de um sistema de armazenamento de geolocalizações e informações.<br/
 Desenvolvimento de uma SPA em VueJS 3 e Quasar Framework. Foram utilizados clean code e padrões de desenvolvimento de uma SPA desenvolvida com Vue.<br/><br/>
 
 
+## 🚀 Link da Aplicação
+
+Aplicação hospedada:<br/>
+Link: https://prooceano.netlify.app/<br/><br/>
+
+
 
 ## 🛠️ Pré-requisitos
 
@@ -30,12 +36,6 @@ Você precisa ter instalado em sua máquina:
 - ApexCharts<br/>
 - Laravel Echo<br/>
 - Vue Router<br/><br/>
-
-
-## 🚀 Link da Aplicação
-
-Aplicação hospedada:<br/>
-Link: https://prooceano.netlify.app/<br/><br/>
 
 
 
