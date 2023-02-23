@@ -23,7 +23,6 @@ export default function useDeviceLocationApi () {
   }
 
   const getLocationByDevice = async (id) => {
-    console.log('chamou')
     token = LocalStorage.getItem('token')     
     let resp = ""
 
