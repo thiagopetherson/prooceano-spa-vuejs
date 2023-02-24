@@ -1,8 +1,8 @@
 <template>
   <q-page padding>
-    <div class="row justify-center">
-      <p class="col-12 text-h5 text-center">Registro</p>
-      <q-form class="col-xs-12 col-sm-10 col-md-4" @submit.prevent="handleRegister">        
+    <div class="row justify-center q-mt-xl">      
+      <q-form class="col-xs-10 col-sm-10 col-md-4 q-mt-xl" @submit.prevent="handleRegister">
+        <p class="col-12 text-h5 text-center q-pb-lg">Registro</p>     
         <div class="q-gutter-y-md">
           <q-input label="Name" :rules="[val => (val && val.length > 0) || 'O nome é obrigatório']" lazy-rules v-model="form.name" />
           <q-input type="email" label="Email" :rules="[val => (val && val.length > 0) || 'O email é obrigatório']" lazy-rules v-model="form.email" />
