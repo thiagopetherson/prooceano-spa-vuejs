@@ -1,6 +1,6 @@
 <template>
-  <q-page padding>
-    <div class="row justify-center">     
+  <q-page class="flex" padding>
+    <div class="row justify-center items-center full-width">     
       <q-form class="col-md-7 col-xs-12 col-sm-12 q-gutter-y-md" @submit.prevent="handleSubmit">
         <p class="col-12 text-h4 text-center">
           {{ isUpdate ? 'Editar Localização' : 'Criar Localização' }}

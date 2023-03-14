@@ -1,6 +1,6 @@
 <template>
-  <q-page padding>
-    <div class="row">
+  <q-page class="flex" padding>
+    <div class="row justify-center items-start full-width">
       <q-table title="Localidades" :rows="locations" :columns="columnsLocation" row-key="id" class="col-12" :loading="loading">
         <template v-slot:top>
           <q-btn label="Novo" icon="add" color="primary" :to="{ name: 'form-location' }" />
