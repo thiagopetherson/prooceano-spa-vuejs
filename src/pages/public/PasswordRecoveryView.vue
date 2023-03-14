@@ -1,7 +1,7 @@
 <template>
-  <q-page padding>
-    <div class="row justify-center q-mt-xl">
-      <q-form class="col-xs-10 col-sm-10 col-md-4 q-mt-xl" @submit.prevent="handleRecoveryPassword">
+  <q-page class="flex" padding>
+    <div class="row justify-center items-center full-width">
+      <q-form class="col-xs-10 col-sm-10 col-md-4" @submit.prevent="handleRecoveryPassword">
         <p class="col-12 text-h5 text-center q-pb-lg">Recuperação de Senha</p>
         <div class="col-md-4 col-sm-6 col-xs-10 q-gutter-y-md">
           <q-input type="email" label="Email" v-model="email" :rules="[val => (val && val.length > 0) || 'O email é obrigatório']" lazy-rules />
