@@ -4,23 +4,23 @@
   justify-content: $jus
   align-items: $ali
 
-// Bootstrap breakpoints media queries
+// Quasar breakpoints media queries
 @mixin media-xl()
-  @media only screen and (min-width: 1200px)
+  @media only screen and (min-width: 1920px)
     @content
  
 @mixin media-lg()
-  @media only screen and (min-width: 992px) and (max-width: 1199px)
+  @media only screen and (min-width: 1440px) and (max-width: 1919.99px)
     @content
 
 @mixin media-md()
-  @media only screen and (min-width: 768px) and (max-width: 991px)
+  @media only screen and (min-width: 1024px) and (max-width: 1439.99px)
     @content
 
 @mixin media-sm()
-  @media only screen and (min-width: 576px) and (max-width: 767px)
+  @media only screen and (min-width: 600px) and (max-width: 1023.99px)
     @content
 
 @mixin media-xs()
-  @media only screen and (min-width: 1px) and (max-width: 575px)
+  @media only screen and (min-width: 1px) and (max-width: 599.99px)
     @content
