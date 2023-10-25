@@ -12,7 +12,7 @@ Desenvolvimento de uma SPA em VueJS 3 e Quasar Framework. Foram utilizados clean
 ## 🚀 Link da Aplicação
 
 Aplicação hospedada:<br/>
-Link: https://prooceano.netlify.app/<br/><br/>
+Link: http://147.182.253.112/<br/><br/>
 
 
 
